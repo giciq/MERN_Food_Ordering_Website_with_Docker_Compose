@@ -1,4 +1,6 @@
-Project utilizes Express.js for backend, React for frontend and MongoDB Atlas to deliver a website for restaurant clients. The main goal of the project was to turn such website into containers using Docker Compose.
+Project utilizes Express.js for backend, React for frontend and MongoDB Atlas to deliver a website for restaurant clients. The goal of the project was to turn such website into containers using Docker Compose.
+
+
 Thanks to *docker-compose.yml* and *Dockerfiles* project is turned into 3 containers, one for each directory: admin, backend, frontend.
 
 # Setup
