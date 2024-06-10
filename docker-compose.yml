@@ -1,0 +1,26 @@
+version: '3.9'
+
+services:
+  backend:
+    build: ./backend
+    container_name: backend
+    ports:
+      - "4000:4000"
+  frontend:
+    build: ./frontend
+    stdin_open: true
+    container_name: frontend
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+  admin:
+    build: ./admin
+    stdin_open: true
+    container_name: admin
+    ports:
+      - "5174:5174"
+    depends_on:
+      - backend
+
+
