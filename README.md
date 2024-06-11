@@ -1,5 +1,5 @@
 Project utilizes Express.js for backend, React for frontend and MongoDB Atlas to deliver a website for restaurant clients. 
-It is modified following tutorial:
+It is a following, modified tutorial:
 https://www.youtube.com/watch?v=DBMPXJJfQEA&t=27347s
 
 
